@@ -1,0 +1,132 @@
+/* Style the title */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+  
+  /* Style the dropdown button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+  /* Style the dropdown content */
+.dropdown-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 500px;
+    width: 100%;
+    white-space: nowrap;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+    display: block;
+}
+  
+section {
+    margin-top: 100px;
+}
+  
+   /* Style the title */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+  /* Style the dropdown content */
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 345px;
+}
+
+#technology-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  #tech-startup-ideas h3:nth-of-type(1),
+  #tech-startup-ideas h3:nth-of-type(3),
+  #tech-startup-ideas h3:nth-of-type(5),
+  #tech-startup-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #355C7D;
+  }
+
+  #architecture-startup-ideas h3:nth-of-type(1),
+  #architecture-startup-ideas h3:nth-of-type(3),
+  #architecture-startup-ideas h3:nth-of-type(5),
+  #architecture-startup-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #92A8D1;
+  }
+
+  #education-startup-ideas h3:nth-of-type(1),
+  #education-startup-ideas h3:nth-of-type(3),
+  #education-startup-ideas h3:nth-of-type(5),
+  #education-startup-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #6B5B95;
+  }
+
+  #law-startup-ideas h3:nth-of-type(1),
+  #law-startup-ideas h3:nth-of-type(3),
+  #law-startup-ideas h3:nth-of-type(5),
+  #law-startup-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color:  #955251;
+  }
+  
+  #retail-ideas h3:nth-of-type(1),
+  #retail-ideas h3:nth-of-type(3),
+  #retail-ideas h3:nth-of-type(5),
+  #retail-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #98B4D4;
+  }
+
+  #fashion-ideas h3:nth-of-type(1),
+  #fashion-ideas h3:nth-of-type(3),
+  #fashion-ideas h3:nth-of-type(5),
+  #fashion-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #88B04B;
+  }
+
+  #health-ideas h3:nth-of-type(1),
+  #health-ideas h3:nth-of-type(3),
+  #health-ideas h3:nth-of-type(5),
+  #health-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #009B77;
+  }
+
+  #other-ideas h3:nth-of-type(1),
+  #other-ideas h3:nth-of-type(3),
+  #other-ideas h3:nth-of-type(5),
+  #other-ideas h3:nth-of-type(7) {
+    font-size: 28px;
+    color: #B55A30;
+  }
